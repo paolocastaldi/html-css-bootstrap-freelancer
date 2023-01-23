@@ -1,0 +1,113 @@
+/* HEADER */
+.navbar-dark {
+    background-color: #2c3e50 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 1) !important;
+}
+
+
+/* JUMBOTRON */
+#jumbotron,
+#about {
+    color: white;
+    background-color: rgb(26, 188, 156);
+}
+
+#jumbotron h1 {
+    font-size: 4.5rem;
+}
+
+.line {
+    height: 4px;
+    background-color: currentColor;
+    width: 15%;
+    max-width: 150px;
+}
+
+.star {
+    font-size: 2rem;
+}
+
+/* PORTFOLIO */
+#portfolio img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* ABOUT */
+#about button,
+#contacts .submit-send {
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+/* CONTACT ME */
+#contacts .submit-send {
+    border: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #333;
+    opacity: 1;
+}
+
+
+/* FOOTER */
+.upper-footer {
+    padding: 10px;
+    color: white;
+    background-color: rgb(58, 84, 109);
+}
+
+footer .circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgb(58, 84, 109);
+}
+
+.footer-icon {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer-credit {
+    color: rgb(38, 151, 139);
+    text-decoration: none;
+}
+
+.bottom-footer {
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+/* BOX IMMAGINI */
+
+.box.box-img {
+    height: 300px;
+    width: 300px;
+}
+
+.box.box-icon {
+    height: 10px;
+    width: 500px;
+}
+
+[class*="col"]>.box {
+    min-height: 80px;
+    border: none;
+}
+
+#jumbotron,
+#about .box-icon {
+    color: white;
+}
